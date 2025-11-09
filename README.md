@@ -1,3 +1,5 @@
+![last commit](https://img.shields.io/github/last-commit/<Cooltrizzle>/<PokemonVGC>.svg)
+
 theme: jekyll-theme-minimal
 
 title: Octocat's homepage
