@@ -1,4 +1,6 @@
-![last commit](https://img.shields.io/github/last-update/<Cooltrizzle>/<PokemonVGC>.svg)
+<!-- LAST_UPDATED:START -->
+<!-- LAST_UPDATED:END -->
+
 
 theme: jekyll-theme-minimal
 
