@@ -10,6 +10,15 @@ body {
 .site-header { text-align: center; padding: 28px 0; }
 .container { max-width: 920px; margin: 0 auto; padding: 28px; }
 
+/* header row — horizontal flex layout */
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0;              /* container already has padding */
+}
+
 .site-header {
   display: flex;
   align-items: center;
