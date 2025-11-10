@@ -8,3 +8,45 @@ body {
 }
 .site-header { text-align: center; padding: 28px 0; }
 .container { max-width: 920px; margin: 0 auto; padding: 28px; }
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--header-bg, #fff);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* keep center block centered regardless of logo width */
+.brand {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0; /* prevents overflow with long title */
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* logo sizing */
+.logo img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* optional: make header compact on small screens */
+@media (max-width: 520px) {
+  .logo img { width: 32px; height: 32px; }
+  .site-title { font-size: 1rem; }
+}
