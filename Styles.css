@@ -39,6 +39,7 @@ body {
 }
 
 /* logo sizing */
+.logo { display: flex; align-items: center; justify-content: center; }
 .logo img {
   display: block;
   width: 40px;
