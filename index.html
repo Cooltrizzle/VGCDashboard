@@ -1,6 +1,52 @@
 <!doctype html>
-<meta charset="utf-8">
-<title>My Project</title>
-<link rel="stylesheet" href="styles.css">
-<h1>Project Title</h1>
-<p>Welcome — this is my custom page.</p>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Project</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="A short description of your project." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Your Project</h1>
+      <p class="tagline">Short one-line summary of what this project does.</p>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#demo">Demo</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>Write a few sentences describing the project, features, and usage.</p>
+    </section>
+
+    <section id="demo" class="card">
+      <h2>Demo</h2>
+      <p>Link to your live demo or embed an iframe (use caution for third-party content).</p>
+      <p><a class="btn" href="https://nerd-of-now.github.io/NCP-VGC-Damage-Calculator/" target="_blank" rel="noopener">Open VGC Damage Calculator</a></p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Links, contributor notes, or quick setup commands.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Your Name — <a href="https://github.com/your-username/your-repo">Repository</a></small>
+    </div>
+  </footer>
+
+  <script>
+    // small runtime nicety: show current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
