@@ -3,6 +3,7 @@
 /* variables for easy tuning */
 :root {
   --content-max-width: 920px; /* match your .container max-width */
+  --container-padding: 36px;  /* increased padding for breathing room */
   --gutter-dark: rgba(0,0,0,0.45);
   --page-bg: #CFEEDC; /* existing page background */
 }
