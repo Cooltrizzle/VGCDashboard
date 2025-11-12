@@ -28,7 +28,7 @@ body {
 }
 
 /* your existing rules follow */
-.container { max-width: 920px; margin: 0 auto; padding: 36px; }
+.container { max-width: 920px; margin: 0 auto; padding: 36px; box-sizing: border-box; }
 
 /* header row — horizontal flex layout */
 .header-row {
