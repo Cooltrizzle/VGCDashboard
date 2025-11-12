@@ -87,8 +87,9 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;               /* space between icon and label */
-  text-decoration: none;     /* remove underline from the whole anchor */
+ /* text-decoration: none;     /* remove underline from the whole anchor */
   color: inherit;
+  background: transparent;
 }
 /* icon sizing — small and crisp (use 16x16 or 24x24 images) */
 .btn-icon {
